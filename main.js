@@ -21,6 +21,10 @@ const createWindow = () => {
   mainWindow.loadURL('https://www.elektrovanassche.be/')
   mainWindow.setMenuBarVisibility(null)
   mainWindow.setBackgroundColor('rgb(255,145,145')
+  mainWindow.webContents.on("new-window", function(event, url) {
+    event.preventDefault();
+  });
+
 
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()
