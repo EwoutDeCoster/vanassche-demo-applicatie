@@ -1,3 +1,3 @@
 # vanassche-demo-applicatie
 
-Electron demo application for store laptops.
+Electron demo application for retail demo laptops.
